@@ -1,6 +1,6 @@
 import { Vue, Component, Prop, Watch } from 'vue-property-decorator'
 import { debounce } from 'lodash'
-import uuid from 'uuid/v4'
+import { v4 as uuid } from 'uuid';
 
 import Api from '@/api/Api'
 import mapData from '@/helpers'
